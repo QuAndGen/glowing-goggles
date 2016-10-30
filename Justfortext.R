@@ -1,5 +1,3 @@
-setwd("D:\\Ram\\Kaggle\\Test")
-
 train<-read.csv("train.csv",header=T)
 
 
