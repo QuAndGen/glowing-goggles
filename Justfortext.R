@@ -6,7 +6,7 @@ str(train)
 head(train)
 train$Y<-as.factor(train$Y)
 length(train)
-rnk<-rank(x)
+
 library(Hmisc)
 str(x)
 x<-as.matrix(train[,-c(1,84)])
